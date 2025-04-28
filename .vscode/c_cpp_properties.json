@@ -21,7 +21,6 @@
             ],
             
             "compilerPath": "E:/mingw64/bin/g++.exe",//!此处是编译器路径，以后可直接在此修改
-            // "cStandard": "c11",
             "cppStandard": "c++14",
             "intelliSenseMode": "gcc-x64"
         }

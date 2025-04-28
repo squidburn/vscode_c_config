@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch", // 配置名称，将会在启动配置的下拉菜单中显示  
+            "name": "cpp", // 配置名称，将会在启动配置的下拉菜单中显示  
             "type": "cppdbg", // 配置类型，这里只能为cppdbg  
             "request": "launch", // 请求配置类型，可以为launch（启动）或attach（附加）  
             // "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe", // 将要进行调试的程序的路径  
@@ -17,7 +17,7 @@
             "preLaunchTask": "g++", // 调试会话开始前执行的任务，一般为编译程序，c++为g++, c为gcc  
             "setupCommands": [
                 {
-                    "description": "Enable pretty-printing for gdb",
+                    "description": "为 gdb 启用整齐打印",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
